@@ -1,0 +1,63 @@
+{
+  "coverPage": {
+    "cid": "unique_conversation_identifier",
+    "ts": "timestamp_of_conversation_start",
+    "uid": "unique_user_identifier",
+    "summary": "Conversation focused on AI development, JSON framework",
+    "sections": ["conv", "algColl", "meta", "evar", "knowledge_base"]
+  },
+  "conv": [
+    {
+      "txt": "user’s input text",
+      "mod": "text/voice/image/etc.",
+      "sent": "positive/negative/neutral",
+      "pfc_input": {
+        "priority_retention": 10,
+        "evaluation_decisional": 5,
+        "subconscious_disregard": 20,
+        "subliminal_influence": 2,
+        "perspective_proximity_paradox": 1.5
+      },
+      "pfc_output": null,
+      "ar": [
+        {
+          "txt": "AI’s-generated_response",
+          "mod": "text/voice/image/etc.",
+          "alg": "[list_of_algorithms_used_for_analysis]",
+          "cm": {}
+        }
+      ]
+    }
+  ],
+  "algColl": {
+    "algs": [
+      {
+        "aid": "unique_algorithm_identifier",
+        "desc": "description_of_algorithm_functionality",
+        "pm": {}
+      }
+    ]
+  },
+  "knowledge_base": {
+    "files": [
+      {
+        "name": "conversation_knowledge.txt",
+        "content": "healthy eating, TikTok video, set a reminder, full device control, image analysis"
+      },
+      {
+        "name": "tiktok_terms.txt",
+        "content": "trending sound, hashtag, engagement, #FitnessTips, #WorkoutChallenge"
+      },
+      {
+        "name": "device_commands.txt",
+        "content": "turn on, open, set, reminder, Do Not Disturb"
+      }
+    ]
+  },
+  "instr": {
+    "Append new turns to conv.",
+    "Update cm based on user interactions.",
+    "Trigger new UI or topic change.",
+    "Load knowledge_base files for mini AI responses."
+  }
+}
